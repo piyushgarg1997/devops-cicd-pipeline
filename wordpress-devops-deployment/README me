@@ -1,0 +1,34 @@
+# WordPress DevOps Deployment
+
+## Features
+
+- Dockerized WordPress
+- MySQL Container
+- Jenkins CI/CD
+- Automated Deployment
+- Nginx Reverse Proxy
+- Backup Automation
+
+## Tech Stack
+
+- Docker
+- Docker Compose
+- Jenkins
+- Nginx
+- WordPress
+- MySQL
+- Linux
+
+## Deployment Flow
+
+GitHub
+   ↓
+Jenkins
+   ↓
+Docker Compose
+   ↓
+WordPress + MySQL
+   ↓
+Nginx
+   ↓
+Production
