@@ -1,0 +1,108 @@
+services:
+
+  php56:
+    image: php:5.6-apache
+    container_name: php56
+    ports:
+      - "56:80"
+    volumes:
+      - ./sites/php56:/var/www/html
+
+
+  php70:
+    image: php:7.0-apache
+    container_name: php70
+    ports:
+      - "70:80"
+    volumes:
+      - ./sites/php70:/var/www/html
+
+
+  php71:
+    image: php:7.1-apache
+    container_name: php71
+    ports:
+      - "71:80"
+    volumes:
+      - ./sites/php71:/var/www/html
+
+
+  php72:
+    image: php:7.2-apache
+    container_name: php72
+    ports:
+      - "72:80"
+    volumes:
+      - ./sites/php72:/var/www/html
+
+
+  php73:
+    image: php:7.3-apache
+    container_name: php73
+    ports:
+      - "73:80"
+    volumes:
+      - ./sites/php73:/var/www/html
+
+
+  php74:
+    image: php:7.4-apache
+    container_name: php74
+    ports:
+      - "74:80"
+    volumes:
+      - ./sites/php74:/var/www/html
+
+
+  php80:
+    image: php:8.0-apache
+    container_name: php80
+    ports:
+      - "80:80"
+    volumes:
+      - ./sites/php80:/var/www/html
+
+
+  php81:
+    image: php:8.1-apache
+    container_name: php81
+    ports:
+      - "81:80"
+    volumes:
+      - ./sites/php81:/var/www/html
+
+
+  php82:
+    image: php:8.2-apache
+    container_name: php82
+    ports:
+      - "82:80"
+    volumes:
+      - ./sites/php82:/var/www/html
+
+
+  php83:
+    image: php:8.3-apache
+    container_name: php83
+    ports:
+      - "93:80"
+    volumes:
+      - ./sites/php83:/var/www/html
+
+
+  php84:
+    image: php:8.4-apache
+    container_name: php84
+    ports:
+      - "84:80"
+    volumes:
+      - ./sites/php84:/var/www/html
+
+
+  php85:
+    image: php:8.5-apache
+    container_name: php85
+    ports:
+      - "85:80"
+    volumes:
+      - ./sites/php85:/var/www/html
